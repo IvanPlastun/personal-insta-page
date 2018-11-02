@@ -9,10 +9,10 @@ body {
 	color: #000000;
 	background-color: #424242;
 
-	background: #71C6F0;
-	background: -webkit-linear-gradient(top left, #71C6F0, #E2D13F);
-	background: -moz-linear-gradient(top left, #71C6F0, #E2D13F);
-	background: linear-gradient(top left, #71C6F0, #E2D13F);
+	background: #0099F7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
