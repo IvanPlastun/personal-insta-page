@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     function showPhotos() {
         var i;
-        var slides = $(".photo img");
+        var slides = $("#instafeed a");
         //Цикл скрывающий все изображения
         for(i = 0; i < slides.length; i++) {
             $(slides[i]).hide();
