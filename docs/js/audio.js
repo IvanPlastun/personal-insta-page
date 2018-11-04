@@ -4,6 +4,7 @@ $(document).ready(function(){
     var $playBtn = $('#audio-play'),
         $pauseBtn = $('#audio-pause'),
         $audioControls = $('[data-type="audio-control"]');
+        
     setTimeout(initAudioPlayer, 800);
     function initAudioPlayer() {
         $playBtn.parent().show();
